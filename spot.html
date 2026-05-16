@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ristretto Cafe — Spotak</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app spot-page">
+    <!-- Hero image with back arrow overlay -->
+    <div class="hero" id="heroImage" style="background-image:url('https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=1000');">
+      <a href="index.html" class="back-btn" aria-label="Go back">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="#1A1A1A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="19" y1="12" x2="5" y2="12"/>
+          <polyline points="12 19 5 12 12 5"/>
+        </svg>
+      </a>
+    </div>
+
+    <!-- Spot title and location -->
+    <section class="spot-info">
+      <h1 class="spot-title" id="spotTitle">Ristretto Cafe</h1>
+      <p class="spot-sub" id="spotLocation">Al Khobar, Eastern Province</p>
+
+      <!-- Amenities row -->
+      <div class="amenity-grid">
+        <div class="amenity-box">
+          <div class="icon-circle">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#00A693" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12.55a11 11 0 0 1 14.08 0"/>
+              <path d="M1.42 9a16 16 0 0 1 21.16 0"/>
+              <path d="M8.53 16.11a6 6 0 0 1 6.95 0"/>
+              <line x1="12" y1="20" x2="12.01" y2="20"/>
+            </svg>
+          </div>
+          <p class="amenity-name">Fast Wi-Fi</p>
+          <p class="amenity-detail">100 Mbps</p>
+        </div>
+
+        <div class="amenity-box">
+          <div class="icon-circle">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#00A693" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+            </svg>
+          </div>
+          <p class="amenity-name">Power Outlets</p>
+          <p class="amenity-detail">Every seat</p>
+        </div>
+
+        <div class="amenity-box">
+          <div class="icon-circle">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#00A693" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
+              <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+              <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+            </svg>
+          </div>
+          <p class="amenity-name">Quietness</p>
+          <p class="amenity-detail">Very High</p>
+        </div>
+      </div>
+
+      <!-- About section -->
+      <div class="about">
+        <h2 class="about-title">About this space</h2>
+        <p class="about-text" id="spotDescription">
+          A modern, minimalist cafe designed for focused work and study. Features comfortable seating,
+          excellent natural lighting, and a strict quiet-hours policy from 9 AM to 5 PM. Perfect for
+          deep work sessions, group study, or remote meetings in our dedicated meeting rooms.
+        </p>
+      </div>
+    </section>
+
+    <!-- Fixed bottom CTA -->
+    <a href="booking.html" class="cta-btn">Book Your Space</a>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>

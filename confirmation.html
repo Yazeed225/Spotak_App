@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Booking Confirmed — Spotak</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app confirmation-page">
+    <!-- Animated check -->
+    <div class="check-wrap">
+      <svg class="checkmark" viewBox="0 0 80 80">
+        <circle class="checkmark-circle" cx="40" cy="40" r="36" fill="none" stroke="#00A693" stroke-width="4"/>
+        <path class="checkmark-path" fill="none" stroke="#00A693" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" d="M22 42 L36 56 L60 28"/>
+      </svg>
+    </div>
+
+    <h1 class="confirm-title">Booking Confirmed!</h1>
+    <p class="confirm-sub">Your spot has been reserved successfully.</p>
+
+    <!-- Booking summary -->
+    <div class="summary-card" id="bookingSummary">
+      <h2 class="summary-title">Booking Details</h2>
+      <div class="summary-row"><span>Spot</span><span id="sumSpot">—</span></div>
+      <div class="summary-row"><span>Date</span><span id="sumDate">—</span></div>
+      <div class="summary-row"><span>Time</span><span id="sumTime">—</span></div>
+      <div class="summary-row"><span>People</span><span id="sumPeople">—</span></div>
+      <div class="summary-row total"><span>Total Paid</span><span>25 SAR</span></div>
+    </div>
+
+    <a href="index.html" class="cta-btn static">Back to Home</a>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
