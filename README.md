@@ -40,4 +40,4 @@ they reach the booking and review interface.
 
 
 ## GitHub Pages Link
-https://yazeed225.github.io/Spotak-App/
+
